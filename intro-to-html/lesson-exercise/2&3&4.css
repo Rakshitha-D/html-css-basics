@@ -1,0 +1,132 @@
+.request-now-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+}
+
+.request-now-button:hover {
+  opacity: 0.8;
+}
+
+.sign-up-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.sign-up-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.get-started-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.get-started-button:hover {
+  background-color: rgb(110, 59, 186);
+}
+
+.download-button {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  font-weight: bold;
+  border: solid;
+  padding: 9.2px 16px 9.2px 16px;
+  border-radius: 2px;
+  border-width: 1px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+.apply-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: rgb(1, 90, 178);
+}
+
+.save-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  font-weight: bold;
+  border: solid;
+  padding: 9.4px 16px 9.4px 16px;
+  border-radius: 15px;
+  border-width: 1px;
+  cursor: pointer;
+  margin: 10px 10px;
+}
+
+.save-button:hover {
+  border-width: 2px;
+  background-color: rgb(220, 237, 252);
+  margin: 9.2px 9px;
+}
+
+.add-to-cart-button {
+  background-color: rgb(255, 216, 20);
+  padding: 10px 16px 10px 16px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.add-to-cart-button:hover {
+  background-color: rgb(236, 193, 0);
+}
+
+.add-to-cart-button:active {
+  opacity: 0.7;
+}
+
+.buy-now-button {
+  background-color: rgb(255, 164, 28);
+  font-weight: bold;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.buy-now-button:hover {
+  background-color: rgb(232, 121, 2);
+}
+
+.buy-now-button:active {
+  opacity: 0.7;
+}
+
+.link-to-amazon {
+  color: rgb(0, 113, 133);
+}
+
+.link-to-amazon:hover {
+  color: red;
+}
