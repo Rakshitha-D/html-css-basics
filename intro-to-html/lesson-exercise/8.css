@@ -1,0 +1,114 @@
+.name,
+.email {
+  display: block;
+  margin: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 2px;
+  padding: 4px;
+}
+
+.text-8b {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-8b,
+.button {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo {
+  width: 200px;
+
+  display: block;
+  margin: 0px auto;
+}
+
+.text-8c {
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+  border-radius: 18px;
+  border: none;
+  box-shadow: 0px 1px 5px grey;
+  display: block;
+  margin: 0px auto;
+}
+
+.first-name {
+  width: 100px;
+  padding: 6px;
+  border: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 4px;
+}
+
+.second-name {
+  width: 100px;
+  padding: 6px;
+  border: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 4px;
+}
+
+.email-8d {
+  width: 220px;
+  padding: 6px;
+  border: solid;
+  border-color: grey;
+  border-width: 2px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+.signup-button {
+  width: 235px;
+  padding: 10px;
+  border: none;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.email-8d,
+.signup-button {
+  display: block;
+}
+
+.uber {
+  font-size: 28px;
+  font-family: Arial;
+}
+.pickup,
+.destination {
+  background-color: rgba(128, 128, 128, 0.151);
+  display: block;
+  margin: 5px 0;
+  padding: 8px;
+  border: none;
+  width: 250px;
+}
+
+.request-button {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border: none;
+  margin-right: 5px;
+  width: 110px;
+  margin-top: 16px;
+}
+
+.schedule-button {
+  background-color: rgba(128, 128, 128, 0.151);
+  padding: 8px;
+  width: 130px;
+  border: none;
+  margin-top: 16px;
+}
