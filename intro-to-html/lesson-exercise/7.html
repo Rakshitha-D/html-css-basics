@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Practice</title>
+    <style>
+      .cat-7a {
+        width: 200px;
+        border-radius: 8px;
+      }
+
+      .cat-7b {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+      }
+      .cat-7c {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100px;
+      }
+
+      .text-7d {
+        margin: 10px 0;
+        padding: 10px;
+        border: solid;
+        border-width: 1px;
+        border-color: gray;
+        border-radius: 8px;
+      }
+
+      .text-7e {
+        margin: 10px;
+        padding: 10px;
+        width: 400px;
+        border-radius: 18px;
+        border: none;
+        box-shadow: 0px 1px 5px grey;
+      }
+
+      label {
+        font-family: Arial;
+        font-size: 16px;
+        color: grey;
+      }
+
+      .email {
+        margin-top: 6px;
+        width: 400px;
+        font-size: 16px;
+        border-style: solid;
+        border-color: grey;
+        border-width: 2px;
+        border-radius: 4px;
+        padding: 7px 0;
+      }
+
+      .terms {
+        font-family: Arial;
+        font-size: 16px;
+        color: grey;
+      }
+
+      .agree-button {
+        background-color: rgb(10, 102, 194);
+        width: 400px;
+        padding: 15px 0;
+        border: none;
+        border-radius: 30px;
+        color: white;
+        font-family: Arial;
+        font-size: 16px;
+      }
+
+      .cat-7g {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 25px;
+        vertical-align: middle;
+      }
+
+      .tweet-text {
+        border: none;
+        font-size: 16px;
+        width: 250px;
+        margin-left: 5px;
+        vertical-align: middle;
+      }
+
+      .tweet-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        padding: 10px 16px 10px 16px;
+        border-radius: 30px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="cat-7a" src="cat.jpg" alt="Cat Image" />
+    <img class="cat-7b" src="cat.jpg" alt="Cat Image" />
+    <img class="cat-7c" src="cat.jpg" alt="Cat Image" />
+    <!-- 7d -->
+    <input class="text-7d" type="text" placeholder="Search" />
+    <!-- 7e -->
+    <input
+      class="text-7e"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+    <br /><br />
+    <!-- 7f -->
+    <label for="email">Email</label><br />
+    <input class="email" type="text" />
+    <p class="terms">
+      By clicking Agree & Join, you agree to the Privacy Policy.
+    </p>
+    <button class="agree-button">Agree & Join</button>
+    <br /><br />
+    <!-- 7g -->
+    <img class="cat-7g" src="cat.jpg" alt="Cat Image" />
+    <input class="tweet-text" type="text" placeholder="What's happening" />
+    <button class="tweet-button">Tweet</button>
+  </body>
+</html>
