@@ -1,0 +1,130 @@
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 25px;
+}
+
+p {
+  font-family: Arial;
+  margin: 0px;
+}
+.review {
+  width: 300px;
+  border: solid;
+  border-width: 2px;
+  border-color: grey;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.yes,
+.no {
+  margin-top: 10px;
+  border: solid;
+  border-width: 2px;
+  border-color: grey;
+}
+
+.youtube {
+  width: 360px;
+  margin: 10px 0;
+  background-color: rgba(0, 0, 0, 0.885);
+  color: white;
+  font-family: Arial;
+  padding: 15px 10px;
+}
+
+.install {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.cat-9e {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+.tweet-text {
+  border: none;
+  font-size: 16px;
+  width: 250px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding: 10px 16px 10px 16px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.tweet-box {
+  width: 400px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 1px 5px grey;
+}
+
+.card {
+  width: 200px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 1px 5px grey;
+  display: inline-block;
+}
+.img-container {
+  width: 200px;
+  height: 200px;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.details {
+  padding: 10px;
+}
+
+.add-button {
+  background-color: rgb(29, 124, 240);
+  border: none;
+  border-radius: 2px;
+  padding: 8px;
+  width: 110px;
+  color: white;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.friends {
+  color: grey;
+  margin-bottom: 6px;
+}
