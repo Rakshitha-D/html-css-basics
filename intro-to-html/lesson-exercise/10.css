@@ -4,6 +4,12 @@ p {
   margin-bottom: 0;
 }
 
+.profile-grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
 .name {
   font-weight: bold;
   margin-bottom: 6px;
@@ -14,8 +20,6 @@ p {
   width: 200px;
   border-radius: 2px;
   box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.25);
-  display: inline-block;
-  margin-right: 10px;
 }
 
 .profile-picture {
@@ -30,15 +34,12 @@ p {
   height: 30px;
   object-fit: cover;
   border-radius: 40px;
-  display: inline-block;
-  vertical-align: middle;
+  margin-left: 10px;
 }
 
 .no-mutual-friends {
   color: rgb(96, 96, 96);
   font-size: 14px;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .addfriend-button {
@@ -52,5 +53,7 @@ p {
 }
 
 .mutual-profile-details {
-  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
 }
